@@ -1,0 +1,24 @@
+#server:
+#  port: 8095    #default port where the service will be started
+#
+#eureka:         #tells about the Eureka server details and its refresh time
+#  registerwithEureka: true
+#  fetchRegistry: true
+#  instance:
+#    leaseRenewalIntervalInSeconds: 1
+#    leaseExpirationDurationInSeconds: 2
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:9091/eureka/
+#    healthcheck:
+#      enabled: true
+#    lease:
+#      duration: 5
+#
+#management:
+#  security:
+#    enabled: false  #disable the spring security on the management endpoints like /env, /refresh etc.
+#
+#logging:
+#  level:
+#    com.example.howtodoinjava: DEBUG
